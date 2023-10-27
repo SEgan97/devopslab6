@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -Wall
 
-all: hello-world
+all: helloworld
 
-hello-world: hello-world.c
+hello-world: helloworld.c
 	$(CC) $(CFLAGS) -o hello-world hello-world.c
 
 clean:
-	rm -f hello-world
+	rm -f helloworld
